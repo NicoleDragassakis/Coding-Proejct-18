@@ -15,12 +15,12 @@ const App = () => {
   }, []);
 
   if (!chartData) {
-    return <div>Loading...</div>;
+    return <div>Loading...</div>; //Task five
   }
 
   return (
     <div>
-      <h1>Financial Dashboard</h1>
+      <h1>Financial Charts</h1>
       <BarChart data={chartData} />
       <LineChart data={chartData} />
       <ScatterChart data={chartData} />

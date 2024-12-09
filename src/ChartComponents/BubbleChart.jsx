@@ -11,8 +11,8 @@ const BubbleChart = ({ data }) => {
           y: data.profits[index],
           r: data.sales[index] / 100,
         })),
-        backgroundColor: "rgba(255, 159, 64, 1)",
-        borderColor: "rgba(255, 159, 64, 1)",
+        backgroundColor: "rgba(255, 159, 64, 1)", //choosing colors
+        borderColor: "rgba(255, 159, 64, 1)",//choosing colors
         borderWidth: 1,
       },
     ],

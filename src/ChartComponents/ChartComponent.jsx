@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { Chart, registerables } from "chart.js"; // Import and register Chart.js components
 
-// Register all chart components (bar, line, linear scales, etc.)
+// Register all  components
 Chart.register(...registerables);
 
 const ChartComponent = ({ type, data, options }) => {
